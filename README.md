@@ -12,37 +12,37 @@ Berikut adalah penjelasan lebih detail tentang cara menambahkan komponen di hala
    - Pada file `home.page.html`, tambahkan komponen **ion-card** yang akan memuat gambar avatar, tombol, dan teks profil.
    - Berikut adalah contoh struktur kode yang dapat digunakan:
      ```html
-    <ion-header>
-    <ion-toolbar color="primary">
-      <ion-title>Detail Profil</ion-title>
-      <ion-buttons slot="start">
-        <ion-back-button></ion-back-button>
-      </ion-buttons>
-    </ion-toolbar>
-  </ion-header>
-  
-  <ion-content [fullscreen]="true">
-    <ion-header collapse="condense">
-      <ion-toolbar>
-        <ion-title size="large">Halaman Utama</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content class="ion-padding">
-      <ion-card>
-        <ion-card-header>
-          <ion-card-title>Yosi Julia Utami</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          <p><strong>Jurusan:</strong> Informatika</p>
-          <p><strong>Angkatan:</strong> 2021</p>
-          <p><strong>NIM :</strong> H1D021022</p>
-        </ion-card-content>
-      </ion-card>
-      <!-- Tombol untuk menampilkan informasi kontak -->
-      <ion-button expand="block" color="secondary" (click)="showContactInfo()">
-        Kontak Saya
-      </ion-button>
-  </ion-content>
+        <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Detail Profil</ion-title>
+          <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+      
+      <ion-content [fullscreen]="true">
+        <ion-header collapse="condense">
+          <ion-toolbar>
+            <ion-title size="large">Halaman Utama</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>Yosi Julia Utami</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <p><strong>Jurusan:</strong> Informatika</p>
+              <p><strong>Angkatan:</strong> 2021</p>
+              <p><strong>NIM :</strong> H1D021022</p>
+            </ion-card-content>
+          </ion-card>
+          <!-- Tombol untuk menampilkan informasi kontak -->
+          <ion-button expand="block" color="secondary" (click)="showContactInfo()">
+            Kontak Saya
+          </ion-button>
+      </ion-content>
      ```
    - **Penjelasan**:
      - `ion-card`: Digunakan untuk membuat kartu yang berisi informasi profil.
