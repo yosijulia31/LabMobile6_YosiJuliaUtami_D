@@ -1,0 +1,7 @@
+{
+  "name": "praktikum_mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
